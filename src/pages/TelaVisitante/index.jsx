@@ -28,7 +28,7 @@ form {
     transform: translate(-50%, -50%);
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.170);
     width: 450px;
-    height: 400px;
+    height: 440px;
 }
 
 h2{
@@ -40,6 +40,7 @@ label{
     font-weight: bold;
     color: #4c5c6b;
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
 input, select{
@@ -65,10 +66,10 @@ input, select{
 button{
     display: inline-block;
     width: 90%;
-    background-color: #6558F5;
-    color: white;
+    background-color: #5CE1E6;
+    color: #323131;
     padding: 8px;
-    border: 1px solid #6558F5;
+    border: 1px solid #5CE1E6;
     border-radius: 4px;
     margin: 10px auto;
     display: flex;
@@ -76,6 +77,11 @@ button{
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #60ebf0;
+        border: 1px solid #60ebf0;
     }
 
 .agrupamento {

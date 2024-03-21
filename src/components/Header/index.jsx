@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-    background-color: #9eadba;
+    background-color: #000000;
     padding: 16px 60px;
+    height: 13vh;
+
+    img{
+    height: 100%;
+    }
 `;
 
 const Header = () => {
     return (
         <HeaderContainer>
-            <h1>Logo</h1>
+            <img src="../img/museu.png" alt="" />
         </HeaderContainer>
     );
 }
