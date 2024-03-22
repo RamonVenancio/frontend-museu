@@ -1,5 +1,5 @@
 import { Document, Page, View, Text, StyleSheet, Image } from "@react-pdf/renderer";
-import brasao from './brasao-do-ceara.png';
+import museu from '../../../img/museu.png';
 import { Html } from "react-pdf-html";
 
 const PDFDocument = () => {
@@ -53,9 +53,9 @@ const PDFDocument = () => {
         <>
             <Document style={styles.container}>
                 <Page size={'A4'}>
-                    <Image src={brasao} style={styles.bg_imagem}/>
+                    <Image src={museu} style={styles.bg_imagem}/>
                     <View style={styles.main}>
-                        <Text>{'Hello world'}</Text>
+                        <Text>{'Aqui está seu relatório'}</Text>
                         <Html>{tabela}</Html>
                     </View>
                 </Page>
