@@ -1,11 +1,11 @@
 import { Document, Page, View, Text, StyleSheet, Image } from "@react-pdf/renderer";
-import museu from '../../../img/museu.png';
+import museu from '../../../img/museu.png'
 import { Html } from "react-pdf-html";
 
 const PDFDocument = () => {
 
     const tabela = `
-        <table border='1'>
+        <table border='1'> 
             <tr>
                 <td>Visitantes total</td>
                 <td>1000</td>
@@ -30,11 +30,11 @@ const PDFDocument = () => {
             position: 'relative'
         },
         bg_imagem: {
-            width: '50%',
+            width: '30%',
             position: 'absolute',
-            left: '25%',
+            left: '35%',
             top: '25%',
-            opacity: .10,
+            opacity: .50,
             zIndex: 1
         },
         main: {

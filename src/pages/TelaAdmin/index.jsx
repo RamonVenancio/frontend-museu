@@ -14,13 +14,16 @@ const TelaAdminContainer = styled.section`
         & a{
             display: inline-block;
             line-height: 46px;
-            background-color: #ff00a2;
+            background-color: #5CE1E6;
             padding: 0 26px;
             border-radius: 5px;
-            color: white;
+            color: #000000;
             font-size: 14px;
             text-transform: uppercase;
             text-decoration: none;
+        }
+        & a:hover{
+        background-color: #60ebf0;
         }
     }
     & .graficos{
